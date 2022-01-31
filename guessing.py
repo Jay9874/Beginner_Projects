@@ -14,8 +14,9 @@ def computer_guess(x):
             high = guess - 1
         elif feedback == 'l':
             low = guess + 1
-        
+        else:
+            print('Entered wrong input, please enter a valid key')
     print(f'Yay! The Computer guessed your number, {guess}, correctly!')
 
-computer_guess(100)
+computer_guess(10)
 
